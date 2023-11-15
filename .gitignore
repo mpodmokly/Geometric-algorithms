@@ -3,4 +3,5 @@
 *.fls
 *.log
 *.gz
-*.py
+lab1.py
+lab2.py
