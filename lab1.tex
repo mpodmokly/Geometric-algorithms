@@ -81,7 +81,8 @@
     \begin{vmatrix}
         a_x - c_x & a_y - c_y \\
         b_x - c_x & b_y - c_y
-    \end{vmatrix}\]
+    \end{vmatrix}
+    =(a_x - c_x)(b_y - c_y) - (b_x - c_x)(a_y - c_y)\]
     oraz wyznacznik 3x3:
 
     \[det(a,b,c)=
@@ -89,7 +90,8 @@
         a_x & a_y & 1 \\
         b_x & b_y & 1 \\
         c_x & c_y & 1
-    \end{vmatrix}\]
+    \end{vmatrix}
+    =a_x b_y + a_y c_x + b_x c_y - c_x b_y - b_x a_y - a_x c_y\]
     Do testów użyta została funkcja obliczająca wyznacznik wbudowana w bibliotekę
     Numpy linalg.det() oraz własne implementacje.
 
